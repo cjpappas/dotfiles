@@ -13,7 +13,7 @@ end
 -- This is where you actually apply your config choices
 
 -- For ezamples, changing the color scheme:
-config.color_scheme = "AdventureTime"
+config.color_scheme = "Tokyo Night Storm (Gogh)"
 
 -- and finally, return the configuration to wezterm
 return config
