@@ -1,0 +1,24 @@
+#!/bin/sh
+[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
+
+# Enable system completions
+autoload -Uz compinit && compinit
+
+# history
+HISTFILE=~/.zsh_history
+
+# source
+#plug "$HOME/.config/zsh/aliases.zsh"
+#plug "$HOME/.config/zsh/exports.zsh"
+
+# plugins
+plug "zsh-users/zsh-autosuggestions"
+plug "zap-zsh/zap-prompt"
+plug "zap-zsh/fzf"
+plug "zsh-users/zsh-syntax-highlighting"
+
+# keybinds
+bindkey '^ ' autosuggest-accept
+
+export PATH="$HOME/.local/bin":$PATH
+
