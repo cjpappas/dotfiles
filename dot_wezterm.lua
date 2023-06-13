@@ -14,7 +14,6 @@ end
 
 -- For ezamples, changing the color scheme:
 config.color_scheme = "Tokyo Night Storm (Gogh)"
-config.window_background_opacity = 0.9
 config.font_size = 13.0
 
 -- and finally, return the configuration to wezterm
