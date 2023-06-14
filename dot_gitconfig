@@ -1,0 +1,5 @@
+[user]
+	name = Cameron Pappas
+	email = cameron.pappas1@gmail.com
+[http]
+	postBuffer = 150000000
